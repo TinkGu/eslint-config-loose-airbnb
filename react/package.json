@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-loose-airbnb-react",
+  "version": "1.0.0",
+  "description": "loose eslint config extends airbnb",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "safe-publish-latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TinkGu/eslint-config-loose-airbnb.git"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "eslintconfig",
+    "react",
+    "airbnb"
+  ],
+  "author": "tinkgu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TinkGu/eslint-config-loose-airbnb/issues"
+  },
+  "homepage": "https://github.com/TinkGu/eslint-config-loose-airbnb#readme",
+  "engines": {
+    "node": ">= 4"
+  },
+  "peerDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-loose-airbnb": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "safe-publish-latest": "^1.1.1"
+  }
+}

@@ -28,11 +28,9 @@ edit `.eslintrc.js`
 extends: ['airbnb', 'loose-airbnb-react'],
 ```
 
-# `eslint-plugin-import` with webpack
-
-some features in webpack such as `resolve.alias` can not compact with eslint. you can use
-
 # with webpack alias
+
+some features in webpack such as `resolve.alias` can not compact with eslint. you can use this plugin.
 
 `npm i eslint-import-resolver-webpack`
 
